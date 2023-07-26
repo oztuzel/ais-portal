@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: rgb(228, 233, 236);
+}
+
+td {
+  font-size: 0.8rem;
+}
