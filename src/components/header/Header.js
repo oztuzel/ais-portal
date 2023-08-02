@@ -101,10 +101,10 @@ function Header() {
               </ul>
             </li>
             <li>
-              <p>Messages</p>
+              <Link to="/messages">Messages</Link>
             </li>
             <li>
-              <p>Messages(AIS Office)</p>
+              <Link to="/messagesAis">Messages(AIS Office)</Link>
             </li>
             <li>
               <p>Meteorology</p>
