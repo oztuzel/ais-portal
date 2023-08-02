@@ -14,7 +14,7 @@ const DUMMY_DATA = [
 
 function FavoritePlans() {
   return (
-    <table>
+    <table className={style.container}>
       <thead>
         <tr>
           <th>ID</th>

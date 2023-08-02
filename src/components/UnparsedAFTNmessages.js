@@ -3,11 +3,11 @@ import style from "./UnparsedAFTNmessages.module.css";
 
 const UnparsedAFTNmessages = () => {
   const [selectedAirport, setSelectedAirport] = useState("LTCT");
-  const [data, setData] = useState([
+  const data = [
     { id: 1, type: "FPL", message: "Message 1" },
     { id: 2, type: "FPL", message: "Message 2" },
     { id: 3, type: "FPL", message: "Message 3" },
-  ]);
+  ];
 
   const airports = [
     { code: "LTCT", name: "Igdir Havalimani" },

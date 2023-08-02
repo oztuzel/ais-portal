@@ -46,7 +46,7 @@ const DUMMY_DATA = [
 
 function Processed() {
   return (
-    <table>
+    <table className={style.container}>
       <thead>
         <tr>
           <th>ID</th>

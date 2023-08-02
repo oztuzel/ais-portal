@@ -24,6 +24,9 @@ function FlightPlanList() {
       case 4:
         navigate("/ais/flightplans/favoritePlans");
         break;
+      default:
+        navigate("/ais/flightplans/unprocessed");
+        break;
     }
   };
 

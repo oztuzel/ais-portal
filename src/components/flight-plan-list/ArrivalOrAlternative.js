@@ -1,11 +1,11 @@
 import React from "react";
-import style from "./TableStyle.module.css"
+import style from "./TableStyle.module.css";
 
 const DUMMY_DATA = [];
 
 function ArrivalOrAlternative() {
   return (
-    <table>
+    <table className={style.container}>
       <thead>
         <tr>
           <th>ID</th>

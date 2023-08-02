@@ -22,7 +22,7 @@ const DUMMY_DATA = [
 
 function Unprocessed() {
   return (
-    <table>
+    <table className={style.container}>
       <thead>
         <tr>
           <th>ID</th>
