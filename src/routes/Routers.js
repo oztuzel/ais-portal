@@ -21,6 +21,7 @@ import Redirected from "../components/flight-plan-list/Redirected";
 import ActiveFlightsDeparted from "../components/vfr-monitoring/ActiveFlightsDeparted";
 import ActiveFlightsAwaiting from "../components/vfr-monitoring/ActiveFlightsAwaiting";
 import Messages from "../components/Messages";
+import Map from "../components/map/Map";
 
 function Routers() {
   return (
@@ -74,6 +75,7 @@ function Routers() {
       />
 
       {/* add Map route in there "/ead/map/onlinenotams"  */}
+      <Route path="/ead/pib/map" element={<Map />} />
       <Route path="/ead/pib/area" element={<AreaPIB />} />
       <Route path="/ead/pib/aerodrome" element={<AerodromePIB />} />
       <Route path="/ead/pib/singlenotam" element={<SingleNOTAM />} />

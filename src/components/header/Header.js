@@ -87,7 +87,7 @@ function Header() {
               <p className={style.expandDown}>EAD Notam Service</p>
               <ul>
                 <li>
-                  <Link>Map</Link>
+                  <Link to="/ead/pib/map">Map</Link>
                 </li>
                 <li>
                   <Link to="/ead/pib/area">PIB Area</Link>
